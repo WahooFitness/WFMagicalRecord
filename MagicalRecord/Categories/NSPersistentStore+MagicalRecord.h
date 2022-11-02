@@ -7,7 +7,7 @@
 
 #import <CoreData/CoreData.h>
 #import <MagicalRecord/MagicalRecordXcode7CompatibilityMacros.h>
-#import "MagicalRecordDeprecationMacros.h"
+#import <MagicalRecord/MagicalRecordDeprecationMacros.h>
 
 // option to autodelete store if it already exists
 
