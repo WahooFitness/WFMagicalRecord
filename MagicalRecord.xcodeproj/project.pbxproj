@@ -307,12 +307,6 @@
 		581ECBF8187F660B00084FEE /* MultipleEntitiesWithNoPrimaryKey.json in Resources */ = {isa = PBXBuildFile; fileRef = 581ECBF6187F660B00084FEE /* MultipleEntitiesWithNoPrimaryKey.json */; };
 		581ECBF9187F663100084FEE /* ImportMultipleEntitiesWithNoPrimaryKeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 581ECBEB187F63FF00084FEE /* ImportMultipleEntitiesWithNoPrimaryKeyTests.m */; };
 		581ECBFA187F663200084FEE /* ImportMultipleEntitiesWithNoPrimaryKeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 581ECBEB187F63FF00084FEE /* ImportMultipleEntitiesWithNoPrimaryKeyTests.m */; };
-		5DFAF3DC29106EA30001C82F /* CocoaLumberjack in Frameworks */ = {isa = PBXBuildFile; productRef = 5DFAF3DB29106EA30001C82F /* CocoaLumberjack */; };
-		5DFAF3DF29106F810001C82F /* CocoaLumberjack in Frameworks */ = {isa = PBXBuildFile; productRef = 5DFAF3DE29106F810001C82F /* CocoaLumberjack */; };
-		5DFAF3E129106F8D0001C82F /* CocoaLumberjack in Frameworks */ = {isa = PBXBuildFile; productRef = 5DFAF3E029106F8D0001C82F /* CocoaLumberjack */; };
-		5DFAF3E329106FFC0001C82F /* CocoaLumberjack in Frameworks */ = {isa = PBXBuildFile; productRef = 5DFAF3E229106FFC0001C82F /* CocoaLumberjack */; };
-		5DFAF3E5291070010001C82F /* CocoaLumberjack in Frameworks */ = {isa = PBXBuildFile; productRef = 5DFAF3E4291070010001C82F /* CocoaLumberjack */; };
-		5DFAF3E7291070050001C82F /* CocoaLumberjack in Frameworks */ = {isa = PBXBuildFile; productRef = 5DFAF3E6291070050001C82F /* CocoaLumberjack */; };
 		9004F4DE1A94C76A00A61312 /* libMagicalRecord.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CF97BB1749843F008D9D13 /* libMagicalRecord.dylib */; };
 		9004F4DF1A94C76E00A61312 /* libMagicalRecord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CF97AB17498414008D9D13 /* libMagicalRecord.a */; };
 		9004F4E21A94CBCF00A61312 /* DifferentClassNameMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 9099492817C2F42100BC2B5C /* DifferentClassNameMapping.m */; };
@@ -1003,7 +997,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DFAF3E7291070050001C82F /* CocoaLumberjack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1019,7 +1012,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DFAF3E129106F8D0001C82F /* CocoaLumberjack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1051,7 +1043,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DFAF3DC29106EA30001C82F /* CocoaLumberjack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1059,7 +1050,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DFAF3DF29106F810001C82F /* CocoaLumberjack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1067,7 +1057,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DFAF3E329106FFC0001C82F /* CocoaLumberjack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1075,7 +1064,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DFAF3E5291070010001C82F /* CocoaLumberjack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1638,7 +1626,6 @@
 			);
 			name = "libMagicalRecord for tvOS";
 			packageProductDependencies = (
-				5DFAF3E6291070050001C82F /* CocoaLumberjack */,
 			);
 			productName = "libMagicalRecord for tvOS";
 			productReference = 3790044922BB51880087D3FC /* libMagicalRecord.a */;
@@ -1677,7 +1664,6 @@
 			);
 			name = "MagicalRecord for tvOS";
 			packageProductDependencies = (
-				5DFAF3E029106F8D0001C82F /* CocoaLumberjack */,
 			);
 			productName = "MagicalRecord for tvOS";
 			productReference = 37CA2607229FEB7000EAB9F6 /* MagicalRecord.framework */;
@@ -1753,7 +1739,6 @@
 			);
 			name = "MagicalRecord for iOS";
 			packageProductDependencies = (
-				5DFAF3DB29106EA30001C82F /* CocoaLumberjack */,
 			);
 			productName = MagicalRecord;
 			productReference = 905D07181A63DE190076B54E /* MagicalRecord.framework */;
@@ -1775,7 +1760,6 @@
 			);
 			name = "MagicalRecord for OS X";
 			packageProductDependencies = (
-				5DFAF3DE29106F810001C82F /* CocoaLumberjack */,
 			);
 			productName = "MagicalRecord OS X";
 			productReference = 905D073B1A63DE690076B54E /* MagicalRecord.framework */;
@@ -1795,7 +1779,6 @@
 			);
 			name = "libMagicalRecord for iOS";
 			packageProductDependencies = (
-				5DFAF3E229106FFC0001C82F /* CocoaLumberjack */,
 			);
 			productName = libMagicalRecord;
 			productReference = C7CF97AB17498414008D9D13 /* libMagicalRecord.a */;
@@ -1815,7 +1798,6 @@
 			);
 			name = "libMagicalRecord for OS X";
 			packageProductDependencies = (
-				5DFAF3E4291070010001C82F /* CocoaLumberjack */,
 			);
 			productName = libMagicalRecord;
 			productReference = C7CF97BB1749843F008D9D13 /* libMagicalRecord.dylib */;
@@ -1906,7 +1888,6 @@
 			);
 			mainGroup = C721C7A013D0A3750097AB6F;
 			packageReferences = (
-				5DFAF3DA29106EA30001C82F /* XCRemoteSwiftPackageReference "CocoaLumberjack" */,
 			);
 			productRefGroup = C721C7B113D0A3AF0097AB6F /* Products */;
 			projectDirPath = "";
@@ -2786,10 +2767,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "MR_LOGGING_DISABLED=1";
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -2832,6 +2810,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "MR_LOGGING_DISABLED=1";
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -3067,8 +3046,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"MR_LOGGING_DISABLED=1",
 					"DEBUG=1",
-					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
@@ -3112,6 +3091,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "MR_LOGGING_DISABLED=1";
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -3157,10 +3137,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "MR_LOGGING_DISABLED=1";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -3204,6 +3181,7 @@
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "MR_LOGGING_DISABLED=1";
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -3650,50 +3628,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		5DFAF3DA29106EA30001C82F /* XCRemoteSwiftPackageReference "CocoaLumberjack" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/CocoaLumberjack/CocoaLumberjack.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		5DFAF3DB29106EA30001C82F /* CocoaLumberjack */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5DFAF3DA29106EA30001C82F /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
-			productName = CocoaLumberjack;
-		};
-		5DFAF3DE29106F810001C82F /* CocoaLumberjack */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5DFAF3DA29106EA30001C82F /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
-			productName = CocoaLumberjack;
-		};
-		5DFAF3E029106F8D0001C82F /* CocoaLumberjack */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5DFAF3DA29106EA30001C82F /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
-			productName = CocoaLumberjack;
-		};
-		5DFAF3E229106FFC0001C82F /* CocoaLumberjack */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5DFAF3DA29106EA30001C82F /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
-			productName = CocoaLumberjack;
-		};
-		5DFAF3E4291070010001C82F /* CocoaLumberjack */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5DFAF3DA29106EA30001C82F /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
-			productName = CocoaLumberjack;
-		};
-		5DFAF3E6291070050001C82F /* CocoaLumberjack */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5DFAF3DA29106EA30001C82F /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
-			productName = CocoaLumberjack;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		9099490817C2F3D400BC2B5C /* TestModel.xcdatamodeld */ = {
